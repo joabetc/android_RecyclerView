@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         for (int i = 0; i < 20; i++) {
-            mWordList.add("Word " + i);
+            mWordList.addLast("Word " + i);
         }
 
         mRecyclerView = findViewById(R.id.recyclerView);
